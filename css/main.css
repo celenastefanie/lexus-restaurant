@@ -74,18 +74,18 @@ h3 {
 
 p {
   font-family: 'Libre Baskerville', serif;
-  font-size: 12px;
+  font-size: 11px;
   color: #320623;
   float: left;
   width: 50%;
-  padding: 0em;
+  padding-bottom: 4em;
   margin: 0em;
 }
 
 .burg {
   width: 50%;
   float: right;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .burgers {
@@ -95,11 +95,11 @@ p {
 .sea {
   width: 50%;
   float: right;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .pasta {
   width: 50%;
   float: right;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
