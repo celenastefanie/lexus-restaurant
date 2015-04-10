@@ -14,6 +14,8 @@ body {
 .logo {
   width: 50%;
   padding: 0em;
+  float: left;
+  padding-top: 0em;
 }
 
 .menu-icon {
@@ -40,6 +42,7 @@ header {
   width: 100%;
   position: relative;
   padding-bottom: 6em;
+  overflow: hidden;
 }
 
 h1 {
@@ -56,6 +59,7 @@ h1 {
 .menu {
   background-color: #FEFAD4;
   padding: 1em;
+  overflow: hidden;
 }
 
 h2 {
@@ -63,6 +67,8 @@ h2 {
   font-weight: 400;
   font-size: 19px;
   color: #320623;
+  margin-top: 5px;
+  background-color: #FEFAD4;
 }
 
 h3 {
@@ -70,36 +76,92 @@ h3 {
   font-weight: 400;
   font-size: 15px;
   color: #320623;
+  margin: 5px 0px 10px 0px;
 }
 
-p {
+.pas-text, .burg-text, .sea-text {
   font-family: 'Libre Baskerville', serif;
   font-size: 11px;
   color: #320623;
   float: left;
   width: 50%;
-  padding-bottom: 4em;
+  padding-bottom: 1.5em;
   margin: 0em;
 }
 
 .burg {
   width: 50%;
-  float: right;
-  margin-bottom: 2em;
+  float: right
+  margin-bottom: 0em;
 }
 
 .burgers {
   background-color: #FEFAD4;
+  overflow: hidden;
+}
+
+.seafood {
+  background-color: #FEFAD4;
+  overflow: hidden;
 }
 
 .sea {
   width: 50%;
   float: right;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
+}
+
+.pas {
+  width: 50%;
+  float: right;
+  margin-bottom: 0em;
 }
 
 .pasta {
+  background-color: #FEFAD4;
+  overflow: hidden;
+}
+
+.kids-menu {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 9px;
+  color: #320623;
+  float: none;
+}
+
+.promos {
+  background-color: #FEFAD4;
+  padding: 0em;
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.promo-head {
+  padding: 1em;
+  margin-bottom: 0em;
+}
+
+.promo-1 {
   width: 50%;
+  padding: 0em;
+  float: left;
+}
+
+.promo-2 {
+  width: 50%;
+  padding: 0em;
   float: right;
-  margin-bottom: 2em;
+}
+
+.promo-3 {
+  width: 50%;
+  padding: 0em;
+  float: left;
+}
+
+.promo-4 {
+  width: 50%;
+  padding: 0em;
+  float: right;
 }
