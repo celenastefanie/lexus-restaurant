@@ -21,8 +21,8 @@ body {
 .menu-icon {
   width: 20%;
   float: right;
-  padding-top: 20px;
-  padding-right: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
 }
 
 header {
@@ -32,11 +32,48 @@ header {
   overflow: hidden;
 }
 
+nav {
+  background-color: #320623;
+  margin: 0em;
+}
+
+nav ul {
+  margin: 0em;
+  list-style-type: none;
+  padding: 0em;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  padding: 1em;
+  font-size: 1em;
+}
+
+li:hover {
+  background-color: #891C29;
+  color: #FEFAD4;
+}
+
 .banner {
   width: 100%;
   opacity: 0.4;
   position: absolute;
 }
+
 
 .smoked-meat {
   width: 100%;
@@ -177,7 +214,38 @@ p {
 
 .contact {
   background-color: #FEFAD4;
-  padding: 1em;
   margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
   overflow: hidden;
+}
+
+.con-head {
+  padding: 1em;
+  margin-bottom: 0em;
+
+}
+.map {
+  padding: 0em;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.hours {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11px;
+  color: #320623;
+  margin: 0em;
+  padding-left: 1em;
+}
+}
+
+footer {
+  background-color: #FEFAD4;
+}
+
+.copywrite {
+  text-align: center;
+  font-size: 6px;
+  padding: 5px;
 }
