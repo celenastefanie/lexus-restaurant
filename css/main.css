@@ -10,7 +10,6 @@ body {
   margin: 0;
   background-color: #320623;
 }
-
 .logo {
   width: 50%;
   padding: 0em;
@@ -19,17 +18,18 @@ body {
 }
 
 .menu-icon {
-  width: 20%;
-  float: right;
-  padding-top: 0px;
-  padding-right: 0px;
+  width: 22%;
+  padding: .5em;
+  position: absolute;
+  right: 2px;
+  top: 10px;
 }
 
 header {
   background-color: #320623;
   padding: 0em;
   margin: 0em;
-  overflow: hidden;
+  position: relative;
 }
 
 nav {
@@ -38,21 +38,28 @@ nav {
 }
 
 nav ul {
-  margin: 0em;
+  margin-top: 2em;
   list-style-type: none;
   padding: 0em;
-}
-
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul ul {
   display: none;
 }
 
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ ul {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+
+}
 a {
   text-decoration: none;
+  color: #FEFAD4;
 }
 
 li {
@@ -61,11 +68,6 @@ li {
   font-weight: 400;
   padding: 1em;
   font-size: 1em;
-}
-
-li:hover {
-  background-color: #891C29;
-  color: #FEFAD4;
 }
 
 .banner {
