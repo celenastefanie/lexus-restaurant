@@ -12,7 +12,7 @@
 <body>
 
 <header>
-  <img class="logo" src="images/logo.svg" alt="Lexus Logo">
+  <img id="Top" class="logo" src="images/logo.svg" alt="Lexus Logo">
 </header>
 
 <nav>
@@ -21,9 +21,9 @@
     <img class="menu-icon" src="images/menu-icon.svg" alt="Navigation">
   </label>
   <ul>
-    <a href=""><li>Menu</li></a>
-    <a href=""><li>Promos</li></a>
-    <a href=""><li>Contact Us</li></a></li>
+    <a href="#Menu"><li>Menu</li></a>
+    <a href="#Promos"><li>Promos</li></a>
+    <a href="#Contact"><li>Contact Us</li></a>
   </ul>
 </nav>
 
@@ -33,7 +33,7 @@
 </div>
 
 <div class="menu">
-  <h2>Menu</h2>
+  <h2 id="Menu">Menu</h2>
 
   <div class="burgers">
   <h3>Burgers and Sandwiches</h3>
@@ -57,7 +57,7 @@
 </div>
 
 <div class="promos">
-  <h2 class="promo-head">Promos</h2>
+  <h2 id="Promos" class="promo-head">Promos</h2>
 
   <div class="prom">
     <img class="p-image" src="images/promo1.jpg" alt="Glasses of beer">
@@ -66,7 +66,7 @@
 
   <div class="prom">
     <img class="p-image" src="images/promo2.jpg" alt="Plate of nachos">
-    <p class="txt">50% off appetizers on Thursdays</p>
+    <p class="txt2">50% off appetizers on Thursdays</p>
   </div>
 
   <div class="prom">
@@ -76,12 +76,12 @@
 
   <div class="prom">
     <img class="p-image" src="images/promo4.jpg" alt="Chicken wings and dipping sauce">
-    <p class="txt">5$ off on game night</p>
+    <p class="txt2">5$ off on game night</p>
   </div>
 </div>
 
 <div class="contact">
-  <h2 class="con-head">Contact Us</h2>
+  <h2 id="Contact" class="con-head">Contact Us</h2>
   <img class="map" src="images/map.jpg" alt="Location of Lexus Resto-Bar in Orleans">
   <p class="hours">210 Centrum Blvd., Orleans ON</p>
   <p class="hours">613.830.7282</p>
@@ -90,6 +90,6 @@
 </div>
 
 <footer>
-  <p><a class="back" href="">Back to Top</a></p>
+  <p><a class="back" href="#Top">Back to Top</a></p>
   <p class="copywrite">© Copyright Lexus Resto-Bar. All Rights Reserved.</p>
 </footer>

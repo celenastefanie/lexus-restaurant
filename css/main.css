@@ -189,6 +189,7 @@ h3 {
   background-color: #FEFAD4;
   padding: 0em;
   margin-top: 1em;
+  padding-bottom: 1em;
   overflow: hidden;
 }
 
@@ -208,7 +209,9 @@ p {
   overflow: hidden;
   width: 50%;
   margin-right: 0em;
+  float: left;
 }
+
 .p-image {
   width: 100%;
   float: left;
@@ -219,11 +222,22 @@ p {
 
 .txt {
   text-shadow: 2px 2px 9px #000;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
   width: 40%;
-  left: 5px;
+  left: 5%;
+  overflow: hidden;
+  text-align: center;
+}
 
+.txt2 {
+  text-shadow: 2px 2px 9px #000;
+  font-size: 25px;
+  position: absolute;
+  width: 40%;
+  left: 55%;
+  overflow: hidden;
+  text-align: center;
 }
 
 .contact {
