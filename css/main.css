@@ -220,9 +220,9 @@ p {
   clear: both;
 }
 
-.txt {
+.txt1 {
   text-shadow: 2px 2px 9px #000;
-  font-size: 25px;
+  font-size: 19px;
   position: absolute;
   width: 40%;
   left: 5%;
@@ -232,7 +232,7 @@ p {
 
 .txt2 {
   text-shadow: 2px 2px 9px #000;
-  font-size: 25px;
+  font-size: 19px;
   position: absolute;
   width: 40%;
   left: 55%;
