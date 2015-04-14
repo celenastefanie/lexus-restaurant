@@ -267,6 +267,26 @@ p {
   padding-left: 1em;
 }
 
+.about {
+  background-color: #FEFAD4;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  padding-bottom: .75em;
+  overflow: hidden;
+}
+
+.about-txt {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11px;
+  color: #320623;
+  padding-bottom: 1.5em;
+  margin: 1em;
+}
+
+.about-image {
+  width: 100%;
+}
+
 footer {
   background-color: #320623;
   background-color: #320623;
